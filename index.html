@@ -350,16 +350,16 @@
     function showSuccessOverlay(){
       // remove existing if any
       const existing = document.getElementById('successOverlay');
-      if(existing) existing.remove();
+      if(existing) existing.remove();y
 
       const overlay = document.createElement('div');
       overlay.className = 'overlay';
       overlay.id = 'successOverlay';
       overlay.innerHTML = `
         <div class="overlay-title">Nachricht erfolgreich gesendet!</div>
-        <div class="overlay-sub small-muted" style="opacity:.9">Danke — Sandro kann über seinen WhatsApp Kanal reagieren.</div>
+        <div class="overlay-sub small-muted" style="opacity:.9">Danke — Leo kann über seinen WhatsApp Kanal reagieren.</div>
         <div class="overlay-actions">
-          <button id="goWhatsApp" class="btn">Sandros WhatsApp Kanal besuchen</button>
+          <button id="goWhatsApp" class="btn">Leos WhatsApp Kanal besuchen</button>
           <button id="sendAgain" class="btn ghost">Noch eine Nachricht senden</button>
         </div>
       `;
