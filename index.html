@@ -218,16 +218,16 @@
       const center = document.createElement('div'); center.className='center-block';
 
       const notice = document.createElement('div'); notice.className='notice';
-      notice.textContent = 'Sandro reagiert auf die anonymen Fragen NUR in seinem WhatsApp Kanal.';
+      notice.textContent = 'Leo reagiert auf die anonymen Fragen NUR in seinem WhatsApp Kanal.';
       center.appendChild(notice);
 
       const wa = document.createElement('a'); wa.className='whatsapp-link'; wa.href = whatsappLink; wa.target='_blank'; wa.rel='noopener noreferrer';
-      wa.innerHTML = '<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"><span>Sandros WhatsApp Kanal</span>';
+      wa.innerHTML = '<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"><span>Leos WhatsApp Kanal</span>';
       center.appendChild(wa);
 
       // form
       const formCard = document.createElement('div'); formCard.className='form-card';
-      const ft = document.createElement('div'); ft.className='form-title'; ft.textContent = 'Schreibe eine Nachricht an Sandro:';
+      const ft = document.createElement('div'); ft.className='form-title'; ft.textContent = 'Schreibe eine Nachricht an Leo:';
       const ta = document.createElement('textarea'); ta.id='anonMessage'; ta.placeholder = 'Nachricht hier eingeben...'; ta.setAttribute('aria-label','Nachricht hier eingeben...'); ta.autocapitalize='sentences'; ta.autocomplete='off';
       formCard.appendChild(ft); formCard.appendChild(ta);
 
