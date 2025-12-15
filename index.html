@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <title>Anonyme Nachrichten an Leo</title>
+  <title>Anonyme Nachrichten an leo</title>
 
   <!-- Montserrat -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
@@ -11,7 +11,7 @@
   <!-- favicon placeholder (wird beim Laden mit profileImage ersetzt) -->
   <link id="favicon" rel="icon" href="" type="image/png">
 
- <style>
+  <style>
     :root{
       --bg-start: #0b5a2f;
       --bg-end:   #02140b;
@@ -171,7 +171,7 @@
         <img id="profileImage" src="" alt="Profilbild" />
       </div>
       <div>
-        <div class="title" id="pageTitle">Anonyme Nachrichten an Leo</div>
+        <div class="title" id="pageTitle">Anonyme Nachrichten an leo</div>
       </div>
 
       <!-- TOP-RIGHT SQUARE BUTTON -->
@@ -444,7 +444,7 @@
     window.addEventListener('load', init);
 
     // expose minimal runtime hooks if needed later
-    window.__leoAnon = { setProfile(url){ setImageSafe(document.getElementById('profileImage'), url); const l = document.getElementById('favicon'); if(l) l.href = url; }, setTopButton(url){ setImageSafe(document.getElementById('topButtonImg'), url); } };
+    window.__leosAnon = { setProfile(url){ setImageSafe(document.getElementById('profileImage'), url); const l = document.getElementById('favicon'); if(l) l.href = url; }, setTopButton(url){ setImageSafe(document.getElementById('topButtonImg'), url); } };
   </script>
 </body>
 </html>
